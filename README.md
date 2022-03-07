@@ -17,3 +17,8 @@ Check out the website to find out more, the website link is just below 😁
 ### Additional Resources / Info
 
 https://www.youtube.com/watch?v=yZ38id-3FIE&feature=youtu.be
+
+
+### NOTE:
+
+`Enter your information in the .env file :)`
