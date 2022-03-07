@@ -1,0 +1,95 @@
+.user {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.user > img {
+  border-radius: 50%;
+  width: 50vw;
+  min-width: 100px;
+  max-width: 200px;
+  cursor: pointer;
+  box-shadow: #0000001a 0px 10px 25px -5px, #0000000a 0px 10px 10px -5px;
+}
+
+.user > h5 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.user > h6 {
+  color: #5c5b5b;
+  max-width: 900px;
+  text-align: center;
+  margin: 3px auto;
+}
+
+.tweetCard,
+.wiki,
+.wikiTitle {
+  width: 80vw !important;
+  max-width: 800px !important;
+  padding: 20px !important;
+  margin: 0 auto !important;
+  margin-bottom: 2rem !important;
+  position: relative;
+  overflow: hidden !important;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.5rem;
+  font-size: 20px;
+}
+
+.wiki {
+  margin-bottom: 10px !important;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+.btnWiki {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #434343 51%,
+    #000000 100%
+  );
+}
+.btnWiki {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btnWiki:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.wikiTitle {
+  margin-bottom: 10px !important;
+  margin-top: -30px !important;
+}
+
+.wikiTitle h6 {
+  font-weight: 600;
+  color: #434343;
+  font-size: large;
+}

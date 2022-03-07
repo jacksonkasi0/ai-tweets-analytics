@@ -1,0 +1,68 @@
+.Btn {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+}
+
+.Btn {
+  display: grid !important;
+  margin: 40px auto !important;
+  align-items: center !important;
+  padding: 15px 35px !important;
+  text-align: center;
+  font-size: large !important;
+  transition: 0.5s !important;
+  background-size: 200% auto;
+  color: white !important;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.Btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.closeIco {
+  position: absolute !important;
+  color: #000 !important;
+  height: 30px !important;
+  width: 30px !important;
+  left: 5px;
+  top: 5px;
+  background: #d3d3d363 !important;
+}
+
+.arr {
+  cursor: pointer;
+  padding: 10px !important;
+  position: absolute;
+  left: 15px;
+  top: -22.5px;
+}
+
+.twLink {
+  margin: 0 !important;
+  padding: 5px 15px !important;
+  text-transform: inherit !important;
+  text-align: justify;
+}
+.twLink a {
+  max-width: 150px !important;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  display: none !important;
+}

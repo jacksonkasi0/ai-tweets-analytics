@@ -1,0 +1,39 @@
+.Box {
+  width: 80%;
+  min-height: 130px;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 10px;
+  padding: 28px;
+  margin: 40px auto !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+@media screen and (min-width: 375px) {
+  .Box {
+    width: 300px;
+  }
+}
+
+.memoji1 {
+  height: 130px;
+  position: absolute;
+  margin-top: -25px;
+  object-fit: contain;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.memojiBox {
+  position: absolute;
+  margin-top: -28px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.memojiBox  img {
+  height: 130px;
+  object-fit: contain;
+}

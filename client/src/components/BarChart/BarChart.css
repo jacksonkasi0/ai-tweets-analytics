@@ -1,0 +1,10 @@
+.chart{
+    width: 80vw;
+    padding: 25px !important;
+    max-height: 420px;
+}
+
+.chart h6{
+    text-align: center;
+    margin: 5px auto !important;
+}
