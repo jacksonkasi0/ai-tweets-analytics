@@ -16,4 +16,4 @@ Check out the website to find out more, the website link is just below 😁
 
 ### Additional Resources / Info
 
-{% youtube https://www.youtube.com/watch?v=yZ38id-3FIE&feature=youtu.be %}
+https://www.youtube.com/watch?v=yZ38id-3FIE&feature=youtu.be
