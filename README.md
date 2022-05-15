@@ -14,7 +14,7 @@ Check out the website to find out more, the website link is just below 😁
 
 [Ai tweets analytics](https://aitweets.azurewebsites.net)
 
-### Additional Resources / Info
+### Additional Resources / Info 
 
 https://www.youtube.com/watch?v=yZ38id-3FIE&feature=youtu.be
 
