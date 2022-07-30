@@ -12,7 +12,7 @@ Check out the website to find out more, the website link is just below 😁
 
 ### Website  Link:🔥
 
-[Ai tweets analytics](https://aitweets.azurewebsites.net)
+[Ai tweets analytics](https://aitweets.netlify.app)
 
 ### Additional Resources / Info 
 
